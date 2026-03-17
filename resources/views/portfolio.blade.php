@@ -667,7 +667,7 @@
                         </div>
                     </div>
                     <div class="timeline-item">
-                        <div class="timeline-date">Aug 2023 – Sep 2027 (Expected)</div>
+                        <div class="timeline-date">Aug 2023 – Present</div>
                         <div class="timeline-body">
                             <h5>Institut Teknologi Del</h5>
                             <p class="org">Sitoluama, Sumatera Utara</p>
@@ -733,40 +733,6 @@
                         </div>
                     </div>
                     <div class="timeline-item">
-                        <div class="timeline-date">Aug 2023 – Mar 2024</div>
-                        <div class="timeline-body">
-                            <h5>@ Google Developer Student Clubs (GDSC)</h5>
-                            <p class="org">IT Del</p>
-                            <p class="role">Member</p>
-                            <ul>
-                                <li>Participated in application development and UI/UX design workshops to enhance technical skills in developing user-centered digital solutions.</li>
-                                <li>Learned user research techniques to better understand user needs and support the development of inclusive and impactful digital applications.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">Jun 2023 – Jan 2026</div>
-                        <div class="timeline-body">
-                            <h5>Design & Social Media @ IT Del Campus Committee</h5>
-                            <p class="org">IT Del</p>
-                            <p class="role">Member</p>
-                            <ul>
-                                <li>Managed visual identity and digital content planning to deliver structured and accessible information while supporting digital-based organizational communication.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">Sep 2023 – Jan 2026</div>
-                        <div class="timeline-body">
-                            <h5>Del Data Science Club (DDSC)</h5>
-                            <p class="org">IT Del</p>
-                            <p class="role">Member</p>
-                            <ul>
-                                <li>Learned user research techniques and basic data analysis to better understand user behavior and support the development of user-centered digital solutions.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
                         <div class="timeline-date">Apr 2024 – May 2024</div>
                         <div class="timeline-body">
                             <h5>GEMASTIK 2024 Data Science Competition</h5>
@@ -782,7 +748,7 @@
                     <div class="timeline-item">
                         <div class="timeline-date">15 Desember 2025</div>
                         <div class="timeline-body">
-                            <h5>Indonesia National IT Competition (UI/UX Design)</h5>
+                            <h5>Indonesia National IT Competition (UI/UX Design Competition)</h5>
                             <p class="org">Universitas Amikom Purwokerto</p>
                             <p class="role">Participant</p>
                             <ul>
@@ -824,6 +790,40 @@
                             <ul>
                                 <li>Managed organizational documentation, meeting notes, and official correspondence.</li>
                                 <li>Coordinated administrative tasks and supported communication between internal members and external parties.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Sep 2023 – Jan 2026</div>
+                        <div class="timeline-body">
+                            <h5>Del Data Science Club (DDSC)</h5>
+                            <p class="org">IT Del</p>
+                            <p class="role">Member</p>
+                            <ul>
+                                <li>Learned user research techniques and basic data analysis to better understand user behavior and support the development of user-centered digital solutions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun 2023 – Jan 2026</div>
+                        <div class="timeline-body">
+                            <h5>Design & Social Media @ IT Del Campus Committee</h5>
+                            <p class="org">IT Del</p>
+                            <p class="role">Member</p>
+                            <ul>
+                                <li>Managed visual identity and digital content planning to deliver structured and accessible information while supporting digital-based organizational communication.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Aug 2023 – Mar 2024</div>
+                        <div class="timeline-body">
+                            <h5>@ Google Developer Student Clubs (GDSC)</h5>
+                            <p class="org">IT Del</p>
+                            <p class="role">Member</p>
+                            <ul>
+                                <li>Participated in application development and UI/UX design workshops to enhance technical skills in developing user-centered digital solutions.</li>
+                                <li>Learned user research techniques to better understand user needs and support the development of inclusive and impactful digital applications.</li>
                             </ul>
                         </div>
                     </div>
