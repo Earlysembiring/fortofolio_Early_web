@@ -47,9 +47,14 @@ require __DIR__.'/../vendor/autoload.php';
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
+try {
+    $response = $kernel->handle(
+        $request = Request::capture()
+    )->send();
 
-$response = $kernel->handle(
-    $request = Request::capture()
-)->send();
-
-$kernel->terminate($request, $response);
+    $kernel->terminate($request, $response);
+} catch (\Throwable $e) {
+    http_response_code(500);
+    header('Content-Type: text/plain; charset=UTF-8');
+    echo 'BOOT_ERROR: '.$e->getMessage();
+}
