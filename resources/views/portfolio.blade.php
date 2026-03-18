@@ -631,7 +631,13 @@
             <div class="container">
                 <div class="about-grid">
                     <div class="about-photo">
-                        <img src="{{ asset('admin/images/faces/about-photo.jpg') }}" alt="Early Nathalia Sembiring" onerror="this.onerror=null;this.src='{{ asset('admin/images/faces/face1.jpg') }}';">
+                        @php
+                            $aboutPhotoPath = public_path('admin/images/faces/about-photo.jpg');
+                            $aboutPhotoSrc = file_exists($aboutPhotoPath)
+                                ? 'data:image/jpeg;base64,'.base64_encode(file_get_contents($aboutPhotoPath))
+                                : asset('admin/images/faces/face1.jpg');
+                        @endphp
+                        <img src="{{ $aboutPhotoSrc }}" alt="Early Nathalia Sembiring" onerror="this.onerror=null;this.src='{{ asset('admin/images/faces/face1.jpg') }}';">
                     </div>
                     <div class="about-content">
                         <h3>About Me <span class="star-sm">✦</span></h3>
