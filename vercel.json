@@ -16,8 +16,7 @@
       "dest": "/public/admin/$1"
     },
     {
-      "src": "/(.*\\.(?:css|js|map|json|png|jpg|jpeg|gif|svg|webp|ico|txt|xml|woff|woff2|ttf|eot))",
-      "dest": "/public/$1"
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
