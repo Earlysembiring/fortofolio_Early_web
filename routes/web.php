@@ -18,6 +18,14 @@ Route::get('/', function () {
     return view('portfolio');
 });
 
+Route::get('/__debug-home', function () {
+    try {
+        return view('portfolio');
+    } catch (\Throwable $e) {
+        return response('DEBUG_HOME_ERROR: '.$e->getMessage(), 500);
+    }
+});
+
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
