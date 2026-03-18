@@ -121,7 +121,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => env('APP_KEY', env('VERCEL') ? 'base64:rmBTBfLcgA1hGCsrpDgNdWw2fPXPP7fp9xbqi4K7Kys=' : null),
 
     'cipher' => 'AES-256-CBC',
 
