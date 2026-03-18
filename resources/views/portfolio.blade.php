@@ -611,7 +611,13 @@
                     <span>PORT</span>
                     <div class="hero-frame" style="width: 240px; flex-shrink:0;">
                         <div class="hero-frame-arch">
-                            <img src="{{ asset('admin/images/faces/home-photo.jpg') }}" alt="Early Nathalia Sembiring" onerror="this.onerror=null;this.src='{{ asset('admin/images/faces/face1.jpg') }}';">
+                            @php
+                                $homePhotoPath = public_path('admin/images/faces/home-photo.jpg');
+                                $homePhotoSrc = file_exists($homePhotoPath)
+                                    ? 'data:image/jpeg;base64,'.base64_encode(file_get_contents($homePhotoPath))
+                                    : asset('admin/images/faces/face1.jpg');
+                            @endphp
+                            <img src="{{ $homePhotoSrc }}" alt="Early Nathalia Sembiring" onerror="this.onerror=null;this.src='{{ asset('admin/images/faces/face1.jpg') }}';">
                         </div>
                         <div class="hero-name-tag">Early Nathalia Sembiring</div>
                     </div>
